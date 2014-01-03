@@ -7,7 +7,7 @@
 begin${3/.+/\n\tif $0 = '0' then\n\t\t/g}$0
 	${3/.+/els/g}if rising_edge(${2:clock}) then
 		
-	end if ;
+	end if;
 end process${1/.+/ $0/g};</string>
 	<key>name</key>
 	<string>synchronous process</string>

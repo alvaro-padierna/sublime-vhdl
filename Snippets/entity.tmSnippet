@@ -6,7 +6,7 @@
 	<string>entity ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
   port (
 	${0:clock}
-  ) ;
+  );
 end entity ${1:${TM_FILENAME/(.*?)(\..+)/$1/}};</string>
 	<key>name</key>
 	<string>entity</string>
