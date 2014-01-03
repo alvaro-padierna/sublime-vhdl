@@ -7,7 +7,7 @@
   port (
 	${0:clock}
   ) ;
-end entity ; -- ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}</string>
+end entity ${1:${TM_FILENAME/(.*?)(\..+)/$1/}};</string>
 	<key>name</key>
 	<string>entity</string>
 	<key>scope</key>

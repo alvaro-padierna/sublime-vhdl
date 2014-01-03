@@ -9,7 +9,7 @@
 
 begin
 
-end architecture ; -- ${1:arch}</string>
+end architecture ${1:arch};</string>
 	<key>name</key>
 	<string>architecture</string>
 	<key>scope</key>

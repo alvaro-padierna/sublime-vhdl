@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:identifier} : while ${2:expression} loop
+	<string>${1:identifier}${1/.+/ : /g}while ${2:expression} loop
 	$0
-end loop ; -- ${1:identifier}</string>
+end loop${1/.+/ $0/g};</string>
 	<key>name</key>
 	<string>while</string>
 	<key>scope</key>

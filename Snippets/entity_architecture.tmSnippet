@@ -7,7 +7,7 @@
   port (
 	${0:clock}
   ) ;
-end entity ; -- ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}
+end entity ${1:${TM_FILENAME/(.*?)(\..+)/$1/}};
 
 architecture ${2:arch} of ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
 
@@ -17,7 +17,7 @@ begin
 
 
 
-end architecture ; -- ${2:arch}</string>
+end architecture ${2:arch};</string>
 	<key>name</key>
 	<string>entity architecture</string>
 	<key>scope</key>

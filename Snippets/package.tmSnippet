@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>package ${1:${TM_FILENAME/(.*?)(\..+)/$1_p/}} is
 	$0
-end package ; -- ${1:${TM_FILENAME/(.*?)(\..+)/$1_p/}} </string>
+end package ${1:${TM_FILENAME/(.*?)(\..+)/$1_p/}};</string>
 	<key>name</key>
 	<string>package</string>
 	<key>scope</key>
