@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>content</key>
+    <string>signal ${1:constant_name}: ${2:type};${4/.+/  -- /g}${4:comment}</string>
+    <key>name</key>
+    <string>signal</string>
+    <key>scope</key>
+    <string>source.vhdl</string>
+    <key>tabTrigger</key>
+    <string>signal</string>
+    <key>uuid</key>
+    <string>E815B152-C7A8-4BFD-93AD-C86C1F8A417D</string>
+</dict>
+</plist>
