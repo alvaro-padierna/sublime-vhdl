@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>${1:identifier}${1/.+/ : /g}process(${2:clock}${3/.+/, /g}${3:reset_n})
-begin${3/.+/\n\tif $0 = '0' then\n\t\t/g}$0
+begin${3/.+/\n\tif $0='0' then\n\t\t/g}$0
 	${3/.+/els/g}if (${2:clock}'event and ${2:clock}='1') then
 
 	end if;
