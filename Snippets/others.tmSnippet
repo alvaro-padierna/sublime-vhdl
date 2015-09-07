@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>(others=>$0)</string>
+    <string>(others=>$1)$0</string>
     <key>name</key>
     <string>others</string>
     <key>scope</key>
