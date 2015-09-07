@@ -4,9 +4,14 @@
 <dict>
     <key>content</key>
     <string>----------------------------------------------------------------------
---! @brief     ${1:comment}
---! @details   ${2:comment}
---! @params    ${3:param1} ${4:description}
+--! @brief
+--! ${1:comment}
+--!
+--! @details
+--! ${2:comment}
+--!
+--! @remarks
+--! ${3:comment}
 ----------------------------------------------------------------------</string>
     <key>name</key>
     <string>doxcomm</string>
